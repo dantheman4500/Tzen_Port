@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Unbounded', cursive;
+    
+    
+    background-color: white;
+}
+
+.main-container{
+    position: relative;
+    width: 90%;
+}
+
+.static-container{
+    display: inline-block;
+    margin: 20px;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 900;
+    width: 280px;
+    
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-size: 300%;
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+    animation: color 3s infinite alternate ease-in;
+}
+
+
+.moving-text-container{
+    display: inline-block;
+    height: 40px;
+    width: 300px;
+    backface-visibility: hidden;
+    
+    font-size: 25px;
+    color: darkblue;
+    
+    position: absolute;
+    top: 88px;
+    
+    overflow: hidden;
+}
+
+.moving-text-container > p{
+    padding: 0;
+    margin: 5px;
+}
+
+.moving-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    position: absolute;
+    animation: upDown 7s infinite;
+}
+
+@keyframes upDown{
+    
+    0% {
+       top: 5px; 
+    }
+    
+    10%{
+        top: 5px;
+    }
+    
+    20%{
+        top: -50px;
+    }
+    
+    30%{
+        top: -50px;
+    }
+    
+    40%{
+        top: -105px;
+    }
+    
+    50%{
+        top: -105px;
+    }
+    
+     60%{
+        top: -160px;
+    }
+    
+    70%{
+        top: -160px;
+    }
+    
+    80%{
+        top: 30px;
+    }
+    
+    85% {
+        top: 5px; 
+    }
+    
+    100% {
+        top: 5px; 
+    }
+    
+}
+
+@keyframes color{
+    
+    0% {
+        background-position: left;
+    }
+    
+    100% {
+        background-position: right;
+    }
+}
