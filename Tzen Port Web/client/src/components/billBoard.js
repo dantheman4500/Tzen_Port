@@ -1,7 +1,8 @@
 import React from 'react';
 import "../components css/billboard.css"
 
-export default function billBoard() {
+export default function Billboard() {
+    
     return (
         <div className = 'main-container'>
         <div className = 'static-container'>
@@ -10,14 +11,14 @@ export default function billBoard() {
         
         <div className = 'moving-text-container'>
             <div className = 'moving-text'>
-                <p> Tzen  </p>
+                <p id ="first-iteam"> Tzen</p>
                 <p> a photographer </p>
                 <p> a dog lover </p>
                 <p> a travler</p>
             </div>
         </div>
-        </div>
-        );
-  }
+    </div>
+    );
+}
 
 
