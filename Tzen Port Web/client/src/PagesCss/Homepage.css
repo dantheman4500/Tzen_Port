@@ -9,12 +9,12 @@ body{
     font-family: 'Unbounded', cursive;
     
     
-    background-color: white;
+    background-color: #36393f;
 }
 
 .main-container{
     position: relative;
-    width: 100%;
+    width: fit-content;
 }
 
 .static-container{

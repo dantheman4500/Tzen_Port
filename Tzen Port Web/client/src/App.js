@@ -1,11 +1,12 @@
-import Billboard from "./components/billBoard"
 import './App.css';
 import React from 'react';
-
+import Homepage from './Pages/Homepage';
 
 export default function App() {
   return (
-    <Billboard></Billboard>
+    <div>
+    <Homepage/>
+    </div>
     );
 };
 
