@@ -19,7 +19,8 @@ const Homepage = () => {
                     <p> a travler</p>
                 </div>
             </div>
-        </div>            </div>
+        </div>            
+        </div>
         </div>
     )
 }

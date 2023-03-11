@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "develop": "^1.0.0",
+    "react-smooth-scrolling": "^1.0.2",
     "run": "^1.4.0"
   }
 }
