@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
 
-body{
-    height: 100vh;
+.Homepage{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     font-family: 'Unbounded', cursive;
-    
-    
+    margin: 0 ;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
     background-color: lightskyblue;
 }
 
@@ -17,6 +18,15 @@ body{
     width: fit-content;
 }
 
+.test1{
+    font-family: 'Unbounded', cursive;
+    font-size: large;
+    font-weight: bolder;
+    display:inline-block;
+    position: absolute;
+    bottom: 20px;
+
+}
 .static-container{
     display: inline-block;
     margin: 20px;

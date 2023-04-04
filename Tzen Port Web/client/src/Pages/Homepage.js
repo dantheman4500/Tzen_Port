@@ -1,6 +1,6 @@
 import React from 'react';
 import "../PagesCss/Homepage.css"
-
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller }from 'react-scroll';
 
 const Homepage = () => {
     return (
@@ -19,9 +19,11 @@ const Homepage = () => {
                     <p> a travler</p>
                 </div>
             </div>
-        </div>            
+        </div>           
         </div>
-        </div>
+        <a className="test1"><Link activeClass="active"  to="test1" spy={true} smooth={true} duration={500}>Let's Begin</Link></a>
+
+    </div>
     )
 }
 

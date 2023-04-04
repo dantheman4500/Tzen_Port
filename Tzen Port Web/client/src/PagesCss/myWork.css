@@ -1,12 +1,23 @@
-body{
-    height: 100vh;
-    width: 100%;
-    display: flex;
+.Main{
+    display: grid;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     font-family: 'Unbounded', cursive;
-    
-    
+    margin: 0 ;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
     background-color: lightcoral;
 }
+
+
+
+.Title{
+    display: block;
+}
+
+.Services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;}
